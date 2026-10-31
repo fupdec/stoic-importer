@@ -11,5 +11,5 @@ func LF(_ source: String, _ arguments: CVarArg...) -> String {
 
 @MainActor
 var currentLanguage: AppLanguage {
-    AppLanguage(rawValue: UserDefaults.standard.string(forKey: "appLanguage") ?? "ru") ?? .russian
+    AppLanguage(rawValue: UserDefaults.standard.string(forKey: "appLanguage") ?? "en") ?? .english
 }
