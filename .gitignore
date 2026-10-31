@@ -1,0 +1,38 @@
+.build/
+.swiftpm/
+.DS_Store
+*.zip
+*.shortcut
+*.xcuserstate
+DerivedData/
+# Private backups / intermediate exports must never enter source control.
+backups/
+exports/
+private/
+!shortcuts/HistoricalDateProbe.shortcut
+!shortcuts/ImportOneStoicEntry.shortcut
+__pycache__/
+!shortcuts/ImportOneStoicEntryV2.shortcut
+!shortcuts/ImportOneStoicPhoto.shortcut
+!shortcuts/ImportOneStoicPhotoV2.shortcut
+!shortcuts/NoTitleProbe.shortcut
+!shortcuts/ImportStoicBatch10.shortcut
+!shortcuts/ImportStoicZIP.shortcut
+!shortcuts/ImportStoicZIPV2.shortcut
+!shortcuts/ImportStoicZIPLedger.shortcut
+!shortcuts/StoicToJournal.shortcut
+
+dist/
+
+# Public allowlist: exclude local development history and signed diagnostics.
+/docs/*
+!/docs/installation.md
+!/docs/releasing.md
+/shortcuts/*
+!/shortcuts/HistoricalDateProbe.plist
+!/shortcuts/StoicMacWriterV3.plist
+!/shortcuts/UPSTREAM-LICENSE
+!/shortcuts/README.md
+
+# Kept local until GitHub workflow publishing is configured.
+/.github/workflows/test.yml

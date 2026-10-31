@@ -1,0 +1,18 @@
+{
+  "provenance": "Native editor export, macOS 27.0.1 (26A434), Shortcuts 5037.0.19; synthetic JSON round-trip returned manual-confirmed. Folder bookmarks and action UUIDs omitted.",
+  "save": {
+    "identifier": "is.workflow.actions.documentpicker.save",
+    "scalars": {
+      "WFAskWhereToSave": false,
+      "WFSaveFileOverwrite": true,
+      "WFFileDestinationPath": "synthetic-ledger.json"
+    }
+  },
+  "load": {
+    "identifier": "is.workflow.actions.documentpicker.open",
+    "scalars": {
+      "WFGetFilePath": "synthetic-ledger.json",
+      "WFFileErrorIfNotFound": false
+    }
+  }
+}
